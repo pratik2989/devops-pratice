@@ -1,1 +1,3 @@
+
  hi pratik today is 19 nov 2025
+the code is represnt to apache server by developer
