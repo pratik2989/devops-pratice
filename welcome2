@@ -1,0 +1,18 @@
+<LocationMatch "^/+$">
+    Options -Indexes
+    ErrorDocument 403 /.noindex.html
+</LocationMatch>
+
+<Directory /usr/share/httpd/noindex>
+    AllowOverride None
+    Require all granted
+</Directory>
+
+Alias /.noindex.html /usr/share/httpd/noindex/index.html
+~
+~
+~
+~
+~
+~
+"/etc/httpd/conf.d/welcome.conf" 18L, 516B
